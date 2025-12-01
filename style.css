@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: "caveat";
+}
+.container{
+    margin-inline: auto;
+    
+    
+    justify-items: center;
+   
+    width: 250px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.calender{
+    
+}
+table {
+   
+    border: 1px solid black ;
+}
+.date-bar{
+    display: flex;
+    border: 1px solid rgb(14, 14, 14);
+    gap: 20px;
+    position: relative;
+    
+
+    
+}
+.calender_icon{
+    margin-left: auto;
+}
+.calender-table{
+    margin-top: 5px;
+}
+.date-bar{
+    padding-left: 3px;
+}
+.current-month{
+    border: 1px solid black;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.calender_icon::before{
+    content: " ";
+    width: 1px; 
+    height:100%;
+    position: absolute;
+    background-color: rgb(22, 22, 22);
+
+}
+th{
+    text-transform: capitalize;
+    gap: 100px;
+}
